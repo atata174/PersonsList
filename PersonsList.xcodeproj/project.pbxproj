@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		676DC3A925DDB89900C5EA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3A825DDB89900C5EA56 /* AppDelegate.swift */; };
 		676DC3AB25DDB89900C5EA56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3AA25DDB89900C5EA56 /* SceneDelegate.swift */; };
-		676DC3AD25DDB89900C5EA56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3AC25DDB89900C5EA56 /* ViewController.swift */; };
 		676DC3B025DDB89900C5EA56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676DC3AE25DDB89900C5EA56 /* Main.storyboard */; };
 		676DC3B225DDB89A00C5EA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676DC3B125DDB89A00C5EA56 /* Assets.xcassets */; };
 		676DC3B525DDB89A00C5EA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676DC3B325DDB89A00C5EA56 /* LaunchScreen.storyboard */; };
+		676DC3C725DDB91E00C5EA56 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3C625DDB91E00C5EA56 /* Person.swift */; };
+		676DC3CA25DDBA6200C5EA56 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3C925DDBA6200C5EA56 /* MainTableViewController.swift */; };
+		676DC3CF25DDC0CB00C5EA56 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3CE25DDC0CB00C5EA56 /* DataManager.swift */; };
+		676DC3D325DDC84300C5EA56 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3D225DDC84300C5EA56 /* SecondTableViewController.swift */; };
+		676DC3D725DDCC5A00C5EA56 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676DC3D625DDCC5A00C5EA56 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		676DC3A525DDB89900C5EA56 /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676DC3A825DDB89900C5EA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		676DC3AA25DDB89900C5EA56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		676DC3AC25DDB89900C5EA56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		676DC3AF25DDB89900C5EA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		676DC3B125DDB89A00C5EA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676DC3B425DDB89A00C5EA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		676DC3B625DDB89A00C5EA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676DC3C625DDB91E00C5EA56 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		676DC3C925DDBA6200C5EA56 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		676DC3CE25DDC0CB00C5EA56 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		676DC3D225DDC84300C5EA56 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		676DC3D625DDCC5A00C5EA56 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,67 @@
 		676DC3A725DDB89900C5EA56 /* PersonsList */ = {
 			isa = PBXGroup;
 			children = (
-				676DC3A825DDB89900C5EA56 /* AppDelegate.swift */,
-				676DC3AA25DDB89900C5EA56 /* SceneDelegate.swift */,
-				676DC3AC25DDB89900C5EA56 /* ViewController.swift */,
-				676DC3AE25DDB89900C5EA56 /* Main.storyboard */,
-				676DC3B125DDB89A00C5EA56 /* Assets.xcassets */,
-				676DC3B325DDB89A00C5EA56 /* LaunchScreen.storyboard */,
-				676DC3B625DDB89A00C5EA56 /* Info.plist */,
+				676DC3CD25DDC0B100C5EA56 /* Services */,
+				676DC3C525DDB90900C5EA56 /* View Controllers */,
+				676DC3C325DDB8ED00C5EA56 /* Models */,
+				676DC3C125DDB8CF00C5EA56 /* Storyboards */,
+				676DC3BF25DDB8BF00C5EA56 /* Supporting Files */,
+				676DC3C225DDB8DD00C5EA56 /* Resources */,
 			);
 			path = PersonsList;
+			sourceTree = "<group>";
+		};
+		676DC3BF25DDB8BF00C5EA56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3A825DDB89900C5EA56 /* AppDelegate.swift */,
+				676DC3AA25DDB89900C5EA56 /* SceneDelegate.swift */,
+				676DC3B625DDB89A00C5EA56 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		676DC3C125DDB8CF00C5EA56 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3AE25DDB89900C5EA56 /* Main.storyboard */,
+				676DC3B325DDB89A00C5EA56 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		676DC3C225DDB8DD00C5EA56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3B125DDB89A00C5EA56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		676DC3C325DDB8ED00C5EA56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3C625DDB91E00C5EA56 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		676DC3C525DDB90900C5EA56 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3C925DDBA6200C5EA56 /* MainTableViewController.swift */,
+				676DC3D225DDC84300C5EA56 /* SecondTableViewController.swift */,
+				676DC3D625DDCC5A00C5EA56 /* TabBarController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		676DC3CD25DDC0B100C5EA56 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				676DC3CE25DDC0CB00C5EA56 /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676DC3AD25DDB89900C5EA56 /* ViewController.swift in Sources */,
+				676DC3CA25DDBA6200C5EA56 /* MainTableViewController.swift in Sources */,
+				676DC3D325DDC84300C5EA56 /* SecondTableViewController.swift in Sources */,
+				676DC3CF25DDC0CB00C5EA56 /* DataManager.swift in Sources */,
+				676DC3C725DDB91E00C5EA56 /* Person.swift in Sources */,
+				676DC3D725DDCC5A00C5EA56 /* TabBarController.swift in Sources */,
 				676DC3A925DDB89900C5EA56 /* AppDelegate.swift in Sources */,
 				676DC3AB25DDB89900C5EA56 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8C7N2PLY3;
-				INFOPLIST_FILE = PersonsList/Info.plist;
+				INFOPLIST_FILE = "PersonsList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertRazhapov.PersonsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8C7N2PLY3;
-				INFOPLIST_FILE = PersonsList/Info.plist;
+				INFOPLIST_FILE = "PersonsList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertRazhapov.PersonsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
